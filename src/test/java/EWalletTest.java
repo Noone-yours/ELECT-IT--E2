@@ -67,7 +67,7 @@ public class EWalletTest {
         assertFalse(success, "Negative transfers should be blocked.");
     }
 
-    // --- Part 5: Balance Verification (10 pts) ---
+    // --- Balance Verification (10 pts) ---
 
     @Test
     void testBalanceAfterMultipleTransactions() {
